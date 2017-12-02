@@ -1,7 +1,11 @@
 # INFO #
 This is my old source code repository
 
-https://play.google.com/store/apps/details?id=startfirst.troll.sieutroll
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=startfirst.troll.sieutroll"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/fr_get.svg" width="20%"></a></br>
+  https://play.google.com/store/apps/details?id=startfirst.troll.sieutroll
+</p>
+
 
 # SCREENSHOTS #
 <div align="center"><img width="60%" height="60%" 
