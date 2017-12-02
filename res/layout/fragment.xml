@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txtNoiDung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnGoiDien"
+            android:layout_toRightOf="@+id/btnDoiCauHoi"
+            android:background="@drawable/boder_tv"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Nội Dung Câu Hỏi"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000080"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnNamMuoiNamMuoi"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/btnGoiDien"
+            android:layout_alignBottom="@+id/btnGoiDien"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/txtNoiDung"
+            android:text="50 : 50" />
+
+        <include
+            android:id="@+id/include_giaithich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            layout="@layout/giaithich_layout"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnGoiDien"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtSoMang"
+            android:text="Gọi Điện" />
+
+        <Button
+            android:id="@+id/btnHoiYKien"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnGoiDien"
+            android:text="Hỏi Ý Kiến" />
+
+        <TextView
+            android:id="@+id/txtCauSo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/startApp3DBanner"
+            android:background="@drawable/boder_tv"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Câu Số 1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtSoMang"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/txtNoiDung"
+            android:background="@drawable/boder_tv"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Fap: 3"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnDoiCauHoi"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnNamMuoiNamMuoi"
+            android:text="Bỏ Qua" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/btn_back"
+                android:height="75dp"
+                android:minHeight="48dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/btn_back"
+                android:height="75dp"
+                android:text="Button" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/btn_back"
+                android:height="75dp"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/btn_back"
+                android:height="75dp"
+                android:text="Button" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
