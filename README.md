@@ -7,8 +7,8 @@ This is my old source code repository
 </p>
 
 <p align="center">
-  <a href="https://github.com/hiennguyen92/Sieu-Troll-App-Android/apk/SieuTroll.apk"><img src="https://visualpharm.com/assets/979/Apk-595b40b65ba036ed117d28a7.svg" width="20%"></a></br>
-  https://github.com/hiennguyen92/Sieu-Troll-App-Android/apk/SieuTroll.apk
+  <a href="https://github.com/hiennguyen92/Sieu-Troll-App-Android/raw/master/apk/SieuTroll.apk"><img src="https://visualpharm.com/assets/979/Apk-595b40b65ba036ed117d28a7.svg" width="20%"></a></br>
+  https://github.com/hiennguyen92/Sieu-Troll-App-Android/raw/master/apk/SieuTroll.apk
 </p>
 
 
