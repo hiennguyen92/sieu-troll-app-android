@@ -6,6 +6,11 @@ This is my old source code repository
   https://play.google.com/store/apps/details?id=startfirst.troll.sieutroll
 </p>
 
+<p align="center">
+  <a href="https://github.com/hiennguyen92/Sieu-Troll-App-Android/apk/SieuTroll.apk"><img src="https://visualpharm.com/assets/979/Apk-595b40b65ba036ed117d28a7.svg" width="20%"></a></br>
+  https://github.com/hiennguyen92/Sieu-Troll-App-Android/apk/SieuTroll.apk
+</p>
+
 
 # SCREENSHOTS #
 <div align="center"><img width="60%" height="60%" 
